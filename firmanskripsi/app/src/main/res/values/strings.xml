@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">firmanskripsi</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="encode">encode</string>
+    <string name="encodeImage">encode</string>
+    <string name="decodeImage">decode</string>
+    <string name="selamat_datang_di_stegafir">Selamat datang di Stegafir</string>
+    <string name="todo">TODO</string>
+    <string name="save">simpan</string>
+    <string name="send">kirim</string>
+    <string name="text">pesan rahasia</string>
+    <string name="image">gambar</string>
+    <string name="buttonSelect">pilih</string>
+</resources>

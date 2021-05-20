@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firmanskripsi" android:versionName="Kenny" android:versionCode="2">
+    <application android:icon="@drawable/stegafir" android:label="@string/app_name" android:debuggable="false" android:testOnly="false" android:killAfterRestore="true">
+        <activity  android:name="com.example.firmanskripsi.MainActivity" android:label="@string/app_name" android:clearTaskOnLaunch="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.example.firmanskripsi." android:label="@string/app_name">
+
+        </activity>
+        <activity android:exported="true" android:name="com.example.firmanskripsi." android:label="@string/app_name">
+
+        </activity>
+
+    </application>
+    <uses-sdk android:targetSdkVersion="30" android:minSdkVersion="29"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA"></uses-permission>
+    <uses-permission android:name="android.permission.READ_OWNER_DATA"></uses-permission>
+
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"></uses-permission>
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"></uses-permission>
+
+</manifest>

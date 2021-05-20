@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:background="@color/teal_700"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/mobiIcon"
+        android:layout_width="131dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16sp"
+        android:src="@drawable/stegafir"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16sp"
+        android:text="@string/selamat_datang_di_stegafir"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonEncode"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/encodeImage" />
+
+    <Button
+        android:id="@+id/ButtonDecode"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="@string/decodeImage" />
+
+</LinearLayout>
+
